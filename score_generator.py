@@ -15,8 +15,11 @@ def get_parser():
                         help='''Number of scores to generate. Default=10''')
     parser.add_argument('-y', '--years', metavar='[1993-2018]', type=int,
                         nargs='+',
-                        help='''One or more years to read data from. Defaults
-                        to all available years (1993-2018).''')
+                        help='''One or more years (seasons) to read data from.
+                        Defaults to all available years (1993-2018). The
+                        year(s) given corresponds to the season starting in the
+                        given year - e.g. 2017 correponds to the season
+                        starting August 2017 and ending May 2018.''')
     parser.add_argument('-t', '--tiers', metavar='[1-4]', type=int, nargs='+',
                         help='''Which tiers/divisions to read data from.
                         Defaults to all available tiers (1-4).''')

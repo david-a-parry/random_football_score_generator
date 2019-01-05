@@ -2,9 +2,11 @@
 Randomly generate a set of football scores. Uses full time scores from English 
 top 4 tiers between 1993-2018 to generate realistic scores.
 
-## Requirements and installation
+## Requirements and Installation
 
-Requires python3. Retrieve the project from github:
+Requires python3. No additional modules should be required.
+
+Retrieve the project from github:
 
     git clone https://github.com/gantzgraf/random_football_score_generator.git
 
@@ -34,8 +36,11 @@ To view options use the -h/--help flag:
       -n NUMBER, --number NUMBER
                             Number of scores to generate. Default=10
       -y [1993-2018] [[1993-2018] ...], --years [1993-2018] [[1993-2018] ...]
-                            One or more years to read data from. Defaults to all
-                            available years (1993-2018).
+                            One or more years (seasons) to read data from.
+                            Defaults to all available years (1993-2018). The
+                            year(s) given corresponds to the season starting in
+                            the given year - e.g. 2017 correponds to the season
+                            starting August 2017 and ending May 2018.
       -t [1-4] [[1-4] ...], --tiers [1-4] [[1-4] ...]
                             Which tiers/divisions to read data from. Defaults to
                             all available tiers (1-4).
