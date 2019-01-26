@@ -26,7 +26,7 @@ def get_parser():
     parser.add_argument('-s', '--scorelines', action='store_true',
                         help='''Pick from results from full scorelines. By
                         default goals for home and away sides are randomly
-                        drawn individually from the historical data. If you
+                        drawn separately from the historical data. If you
                         prefer to randomly pull full scorelines use this
                         option.''')
     return parser

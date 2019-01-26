@@ -46,5 +46,5 @@ To view options use the -h/--help flag:
                             all available tiers (1-4).
       -s, --scorelines      Pick from results from full scorelines. By default
                             goals for home and away sides are randomly drawn
-                            individually from the historical data. If you prefer
+                            separately from the historical data. If you prefer
                             to randomly pull full scorelines use this option.
